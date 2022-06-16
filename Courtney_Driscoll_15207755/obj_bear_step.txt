@@ -1,0 +1,3 @@
+//to slow bear down
+//Courtney Driscoll 15207755
+speed = max(speed-0.05,0);

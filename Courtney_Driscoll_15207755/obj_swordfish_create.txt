@@ -1,0 +1,4 @@
+//when instance of swordfish created
+//Courtney Driscoll 15207755
+direction = 180;
+speed = global.fishspeed;

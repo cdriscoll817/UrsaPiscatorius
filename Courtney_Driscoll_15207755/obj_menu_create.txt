@@ -1,0 +1,7 @@
+//create menu
+//Courtney Driscoll 15207755
+menu[0] = "Start";
+menu[1] = "Help";
+menu[2] = "Exit";
+space = 64;
+mpos = 0;

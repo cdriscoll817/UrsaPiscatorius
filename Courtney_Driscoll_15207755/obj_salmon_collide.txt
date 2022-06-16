@@ -1,0 +1,12 @@
+//when salmon collides with bear
+//Courtney Driscoll 15207755
+instance_destroy();
+score = score + 10;
+if(score = global.winscore)
+{
+    if(room != rm_level5)
+        room_goto_next();
+    else
+        instance_create(0,0,obj_win);
+}
+audio_play_sound(snd_bear2,10,0);

@@ -1,0 +1,23 @@
+Courtney Driscoll
+Student Number 15207755
+17/3/16
+
+						Report
+
+To explain the game I will start with the rooms. There are 7 rooms, 5 levels, a start menu, and a help screen. The menu and the help screen have simple background with text displayed over them. The start screen has a cursor that lets one choose between three options, start, help, and exit. The up and down arrow keys as well as the “w” and “s” keys can be used to toggle between these three options. An option can be selected by clicking enter or the space bar.  The help option brings a player to the help screen and the help screen gives rules for the game and returns to the start screen when the enter key is pressed. The exit option on the start screen terminates the running of the game. The start option starts the game and brings a player to the first level.
+Each level is created from a different room. All rooms to start have a bear object, a stats object, a spawn object and wave objects. The waves vary from level to level in terms of size and proximity to the bear. This is because the waves block the fish objects from view, so the larger they are, or the closer to the bear, the harder the game. The position of the spawn object in the room is unimportant. The spawn object runs code to randomly spawn fish. The position of the stats object is also unimportant. It displays the number of lives and the score on the screen, as well as the level number and the score needed to win. The bear object has creation code associated with it that sets the variables for each level. These include the speed of the fish, which increases as levels progress, the top speed of the bear, which decreases as levels progress, the score needed to win the level, which increases as levels progress, and the proportion of swordfish in the array that is used to generate fish, which also increases as levels progress. 
+As per the specifications, the bear moves up and down using the up and down arrow keys or the “w” and “s” keys, and it abruptly stops when it reaches the river bank edge. It also slows to a stop when keys are not being pressed. The fish are spawned at the right of the screen and travel to the left toward the bear at a constant speed. If the fish collide with the bear, the instance of the fish is destroyed. If it was a salmon, the score increases by 10 points, but if it was a swordfish, a life is lost. If all 5 lives are lost before the score is reached, a game over object is created that displays “game over” and “press enter to restart”. When enter is pressed, the game restarts and the player is taken back to the start menu. If a player wins all 5 levels, a win game object is created, and “you win” is displayed with “press enter to restart”. Again enter will take a player back to the start menu.
+
+Acknowledgements:
+The salmon picture (which is really a trout) came from:
+http://worldartsme.com/trout-fish-clipart.html#gal_post_98862_trout-fish-clipart-1.jpg
+The swordfish picture came from:
+http://worldartsme.com/swordfish-free-clipart.html#gal_post_28762_swordfish-free-clipart-1.jpg
+The picture of the waves were taken from:
+https://www.google.ie/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj23MPJoMbLAhVEFg8KHZW4DfwQjB0IBg&url=http%3A%2F%2Fwww.toonvectors.com%2Fclip-art%2Fcartoon-waves-theme-image%2F38425&bvm=bv.116954456,d.ZWU&psig=AFQjCNGCjx3SIDh4hgdMYZwsrP4oHHGv2w&ust=1458253664004853
+The general riverbank background was found at:
+http://www.canstockphoto.com/illustration/river-bank.html
+The background water sound effects were downloaded from:
+http://www.audiomicro.com/free-sound-effects/free-water-sound-effects#_=_
+The bear growl (which is actually a lion growl) was downloaded from:
+http://www.audiomicro.com/free-sound-effects/free-animal-sound-effects/page-10/sort:Track.length/direction:asc#_=_ 

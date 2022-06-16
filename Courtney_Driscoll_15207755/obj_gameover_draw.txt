@@ -1,0 +1,7 @@
+//draw game over
+//Courtney Driscoll 15207755
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+draw_set_colour(c_black);
+draw_text(room_width/2,room_height/4,"Game Over");
+draw_text(room_width/2,room_height/4 + 50,"Press enter to restart");

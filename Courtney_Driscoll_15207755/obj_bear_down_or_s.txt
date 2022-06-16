@@ -1,0 +1,6 @@
+//when down or s key pressed, move bear
+//Courtney Driscoll 15207755
+if(direction = 90) speed = 0;
+direction = 270;
+speed = speed + 0.2;
+if(speed > global.bearmax) speed = global.bearmax;

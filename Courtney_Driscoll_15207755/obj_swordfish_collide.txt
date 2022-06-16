@@ -1,0 +1,9 @@
+//when swordfish collides with bear
+//Courtney Driscoll 15207755
+instance_destroy();
+lives = lives - 1; 
+if(lives = 0)
+{
+    instance_create(0,0,obj_gameOver);
+}
+audio_play_sound(snd_bear2,10,0);

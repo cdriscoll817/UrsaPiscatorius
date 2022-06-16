@@ -1,0 +1,10 @@
+//create help
+//Courtney Driscoll 15207755
+help[0] = "Catch the salmon but avoid the swordfish";
+help[1] = "Salmon will give you 10 points";
+help[2] = "Swordfish will make you loose a life";
+help[3] = "Levels get harder as they progress";
+help[4] = "Earn the necessary score to move on";
+help[5] = "Press enter to return to the menu";
+space = 64;
+

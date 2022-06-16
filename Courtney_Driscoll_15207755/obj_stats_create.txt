@@ -1,0 +1,4 @@
+//when stats object created
+//Courtney Driscoll 15207755
+score = 0; 
+lives = 5;

@@ -1,0 +1,12 @@
+//creation code for level 2
+//Courtney Driscoll 15207755
+global.level =1;
+global.winscore=50;
+global.fishspeed=5;
+global.bearmax=10;
+global.fishtype[0] = obj_salmon;
+global.fishtype[1] = obj_salmon;
+global.fishtype[2] = obj_swordfish;
+global.fishtype[3] = obj_salmon;
+global.fishtype[4] = obj_salmon;
+global.fishtype[5] = obj_swordfish;

@@ -1,0 +1,8 @@
+//draw stats on screen
+//Courtney Driscoll 15207755
+draw_set_colour(c_black);
+draw_set_font(ft_std);
+draw_text(64,32,"score: " + string(score)); 
+draw_text(64,64,"lives: " + string(lives));
+draw_text(room_width/2, 96, "Level: " + string(global.level));
+draw_text(room_width/2, 128, "Earn a score of: " + string(global.winscore));

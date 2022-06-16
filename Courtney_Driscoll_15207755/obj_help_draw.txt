@@ -1,0 +1,11 @@
+//draw help
+//Courtney Driscoll 15207755
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+draw_set_colour(c_black);
+draw_set_font(ft_std);
+var h;
+for(h = 0; h<array_length_1d(help); h ++)
+{
+    draw_text(x + space, y + (h*space), string(help[h]));
+}

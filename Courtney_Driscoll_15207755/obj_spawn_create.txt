@@ -1,0 +1,4 @@
+//spawning of fish
+//Courtney Driscoll 15207755
+var fish = irandom(5);
+instance_create(room_width,random(435)+325,global.fishtype[fish]);

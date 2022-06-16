@@ -1,0 +1,6 @@
+//when up or w is pressed, move bear
+//Courtney Driscoll 15207755
+if(direction = 270) speed = 0;
+direction = 90;
+speed = speed + 0.2;
+if(speed > global.bearmax) speed = global.bearmax;
